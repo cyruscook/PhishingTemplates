@@ -40,4 +40,4 @@ With this example by modifying DNS responses you could redirect google.com and s
 
 Each login page will ask for the user's password twice, so that if the user incorrectly enters the password the first time they will probably get it right the second. Some users will also try a different password the second time, potentially giving you two of their passwords which they could use on other sites. Each time they will be told they entered an incorrect password, and after their second guess they will be redirected to the actual website so that they can log in correctly the third time.
 
-Entered details will be stored in the log.txt of the campaign dir in format `username:password`.
+Entered details will be stored in log.txt of the campaign dir in format `username:password`.
