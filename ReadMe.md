@@ -9,11 +9,23 @@ Hopefully by looking at some of the webpages here you will be able to understand
 
 ## Included Websites
 
-### Liscenced Outlook. Used by some businesses / schools.
+#### Snapchat
 
 | Fake | Real |
 |------|------|
-| ![Fake Outlook](https://i.imgur.com/4p6KFHU.png) | ![Real Outlook](https://i.imgur.com/euGbGpP.png) |
+| ![Fake](https://i.imgur.com/aJtJSWo.png) | ![Real](https://i.imgur.com/uUROvE1.png) |
+
+Calculated Similarity: `99.24%`
+
+Directory: `/Snapchat`
+
+#### Liscenced Outlook. Used by some businesses / schools.
+
+| Fake | Real |
+|------|------|
+| ![Fake](https://i.imgur.com/4p6KFHU.png) | ![Real](https://i.imgur.com/euGbGpP.png) |
+
+Calculated Similarity: `100%`
 
 Directory: `/LiscencedOutlook`
 
@@ -41,3 +53,9 @@ With this example by modifying DNS responses you could redirect google.com and s
 Each login page will ask for the user's password twice, so that if the user incorrectly enters the password the first time they will probably get it right the second. Some users will also try a different password the second time, potentially giving you two of their passwords which they could use on other sites. Each time they will be told they entered an incorrect password, and after their second guess they will be redirected to the actual website so that they can log in correctly the third time.
 
 Entered details will be stored in log.txt of the campaign dir in format `username:password`.
+
+## FAQ
+
+#### How do you compare image similarity?
+
+I use https://www.imgonline.com.ua/eng/similarity-percent.php. You can test the images for yourself there.
