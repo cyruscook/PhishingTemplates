@@ -9,10 +9,13 @@ Hopefully by looking at some of the webpages here you will be able to understand
 
 ## Included Websites
 
-### Liscenced Outlook. User by some businesses / schools.
+### Liscenced Outlook. Used by some businesses / schools.
+
 | Fake | Real |
 |------|------|
 | ![Fake Outlook](https://i.imgur.com/4p6KFHU.png) | ![Real Outlook](https://i.imgur.com/euGbGpP.png) |
+
+Directory: `/LiscencedOutlook`
 
 ## Setup
 
