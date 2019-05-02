@@ -64,11 +64,12 @@
 				<span>Show password</span>
 			</div>
 			
-			<?php
-			if(isset($_GET['reason'])){
-				echo "<div id='signInErrorDiv' class='signInError' role='alert' tabindex='0'>The user name or password you entered isn't correct. Try entering it again.</div>";
-			}
-			?>
+			<script>
+				if((window.location.href.indexOf('?' + "reason") != -1) || (window.location.href.indexOf('&' + "reason") != -1))
+				{
+					document.write("<div id='signInErrorDiv' class='signInError' role='alert' tabindex='0'>The user name or password you entered isn't correct. Try entering it again.</div>");
+				}
+			</script>
 
 			<div id="expltxt" class="signInExpl" role="alert">
 				
