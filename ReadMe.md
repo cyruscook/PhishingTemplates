@@ -19,6 +19,8 @@ Calculated Similarity: `99.24%`
 
 Directory: `/Snapchat`
 
+Preview: https://cyruscook.github.io/PhishingTemplates/Snapchat/
+
 #### Liscenced Outlook. Used by some businesses / schools.
 
 | Fake | Real |
@@ -28,6 +30,8 @@ Directory: `/Snapchat`
 Calculated Similarity: `100%`
 
 Directory: `/LiscencedOutlook`
+
+Preview: https://cyruscook.github.io/PhishingTemplates/LiscencedOutlook/
 
 ## Setup
 
